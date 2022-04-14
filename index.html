@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>BMI calcutor</title>
+</head>
+<body>
+<div class="container">
+    <p id="title">BMI Calculator</p>
+
+    <div class="input-container">
+        <div class="input">
+        <input type="text" name="height" id="height" placeholder="Enter your height"><br>
+        <select name="heightUnit" id="heightUnit">
+            <option value="meters">Meters</option>
+            <option value="centimeters">Centimeters</option>
+            <option value="foot">Foot</option>
+        </select><br>
+        <input type="text" name="weight"  id="weight" placeholder="Enter your weight"><br>
+        <select name="weightUnit" id="weightUnit">
+             <option value="kilograms">Kg</option>
+            <option value="pounds">lbs</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="calculate">Calculate</button>
+    </div>
+
+     <div class="bmi">
+        <p>Your BMI is</p>
+        <p id="bmiValue"></p>
+        <p id="bmiText"></p>
+    </div>
+</div>
+<script src="main.js"></script>   
+</body>
+</html>

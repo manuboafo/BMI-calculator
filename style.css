@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: rgb(17, 17, 43);
+    min-width: 300px;
+    height: 550px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#title{
+    font-size: 2.0rem;
+    margin: 2rem 0 1.5rem 0;
+    text-align: center;
+}
+
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+   margin-top: 1.5rem;
+   height: 2.5rem;
+   padding: 1rem; 
+   border-radius: 5px;
+   font-size: 1.1rem;
+}
+
+
+select{
+    margin:  .5rem auto;
+    height: 2.5rem; 
+   border-radius: 5px;
+   font-size: 1.1rem; 
+   width: 100%;
+   padding-left: 1rem;
+}
+
+
+.bmi{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#bmiValue{
+    font-size: 2rem;
+}
+
+
+#bmiText{
+   text-transform: uppercase;
+   color: red;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+#calculate{
+    margin-top: 1rem;
+    color: white;
+    padding: .5rem 1rem; 
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#calculate:hover{
+    cursor: pointer;
+}
